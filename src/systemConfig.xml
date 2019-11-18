@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<systemConfig>
+    <!-- 系统配置 -->
+    <system>
+        <title>皇甫家胜后台管理系统</title>
+        <!-- 是否开启验证码 true/false 是/否 -->
+        <captchaEnabled>true</captchaEnabled>
+    </system>
+    <!-- 敏感词汇 -->
+    <sensitiveWords>
+        <word>笨蛋</word>
+        <word>傻瓜</word>
+        <word>草泥马</word>
+        <word>狗日的</word>
+    </sensitiveWords>
+</systemConfig>
