@@ -1,4 +1,4 @@
-package cn.huangfu.common.db;//package cn.huangfu.common.db;
+//package cn.huangfu.common.db;
 //
 //import cn.huangfu.common.annotation.Id;
 //import cn.huangfu.common.annotation.Table;
@@ -21,9 +21,9 @@ package cn.huangfu.common.db;//package cn.huangfu.common.db;
 // * @Date: 2019/11/14 20:46
 // * @Description:
 // */
-//public class BaseDaoImplDemo01 extends AbstractBaseDao{
+//public class BaseDaoImpl extends AbstractBaseDao{
 //
-//    private final static Log logger =  LogFactory.getLog(BaseDaoImplDemo01.class);
+//    private final static Log logger =  LogFactory.getLog(BaseDaoImpl.class);
 //
 //    @Override
 //    public <E> E insert(E entity) {
@@ -64,7 +64,7 @@ package cn.huangfu.common.db;//package cn.huangfu.common.db;
 //        }
 //        sbName.append(") ");
 //        sbValues.append(") ");
-//        //Sq字符最总拼接
+//        //Sql字符最总拼接
 //        sb.append(sbName.toString()).append(sbValues.toString());
 //
 //        int ret = template.update(sb.toString(), list.toArray(new Object[list.size()]));
@@ -195,19 +195,6 @@ package cn.huangfu.common.db;//package cn.huangfu.common.db;
 //        for (Field field : fields) {
 //            //校验是否注释
 //            if(field.isAnnotationPresent(Id.class)){
-//                /*try {
-//                    //问题原因：注解是在成员属性上，类对象上获取不到
-////                    Id id = (Id) classz.getAnnotation(Id.class);
-//                    Id id = (Id) field.getAnnotation(Id.class);
-//                    //如果默认值为空字符返回成员方法名，否则返回属性值
-//                    if ("".equals(id.value())) {
-//                        return field.getName();
-//                    }
-//                    return id.value();
-//
-//                }catch (Exception e){
-//                    e.printStackTrace();
-//                }*/
 //                return field.getName();
 //            }
 //        }
@@ -242,23 +229,6 @@ package cn.huangfu.common.db;//package cn.huangfu.common.db;
 //
 //        return null;
 //    }
-//    /*
-//    private String getSmallHump(String str){
-//        String[] s = str.split("_");
-//        if(s.length ==0){
-//           return str;
-//        }
-//        StringBuilder sb = new StringBuilder();
-//        sb.append(s[0]);
-//        for (int i = 1; i < s.length; i++) {
-//            //获取第一位
-//            String first_s = s[i].charAt(0)+"";
-//            //小写转大写
-//            first_s = first_s.toUpperCase();
-//            sb.append(first_s + s[i].substring(1));
-//        }
-//        return sb.toString();
-//    }*/
 //
 //
 //    public static void main(String[] args) {
@@ -270,7 +240,7 @@ package cn.huangfu.common.db;//package cn.huangfu.common.db;
 //        sysUser.setLoginName("黄家胜");
 //        sysUser.setUserName("黄家胜");
 //        sysUser.setLoginDate(new Date());
-//        BaseDaoImplDemo01 baseDao = new BaseDaoImplDemo01();
+//        BaseDaoImpl baseDao = new BaseDaoImpl();
 //        /*new BaseDaoImpl().delete(sysUser);*/
 //        baseDao.insert(sysUser);
 //        /*baseDao.update(sysUser);*/

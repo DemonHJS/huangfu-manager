@@ -2,125 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97ba06b6-13ff-4270-85ba-fe8baad18786" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/huangfu_manager_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/huangfu-manager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/annotation/Id.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/annotation/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/bean/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/bean/I18n.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/bean/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/bean/WebResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/db/AbstractBaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDaoImplDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/db/datasource/DruidDataConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/listener/ContextLoaderListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/util/DownLoadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/util/ImageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/util/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/util/StringsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/util/WXPayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/util/WXPayXmlUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/util/XmlUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/system/Controller/LoginCodeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/system/Controller/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/system/Controller/ServletTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/system/dao/SysUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/system/dao/impl/SysUserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/system/entity/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/system/filter/LoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/system/filter/SensitiveWordsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/system/service/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/message.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/systemConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/BaseDaoImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-bean-collections-1.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-core-1.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.8.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/json-20180813.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mchange-commons-java-0.2.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/fonts/Simple-Line-Icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/banner_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/banner_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/banner_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/footer_service.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/guonei_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/hot_tel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/hotel_tel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/icon_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/icon_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/icon_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/icon_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/icon_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/icon_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/icon_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/jiangwai_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/jiangxuan_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/jiangxuan_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/jiangxuan_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/jiangxuan_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/jiangxuan_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/jingxuan_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/img/top_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/jquery/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/system/css/huangfu-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/system/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/system/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/system/img/huangfu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/system/img/locked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/system/img/login-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/system/img/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/test01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDaoImplDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDaoImplDemo01.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -136,12 +19,42 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/huangfu/common/db/datasource/DruidDataConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="528">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1012">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDaoImplDemo01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5214">
+              <caret line="237" column="27" selection-start-line="237" selection-start-column="27" selection-end-line="237" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -151,7 +64,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="88">
-                <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+                <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -160,16 +73,14 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-726" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/resources/expand/bootstrap/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -178,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -187,6 +98,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDao.java" />
+        <option value="$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDaoImplDemo01.java" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -197,8 +116,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="440" />
-    <option name="width" value="1240" />
+    <option name="x" value="615" />
+    <option name="width" value="1320" />
     <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -208,6 +127,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,13 +138,70 @@
             <path>
               <item name="huangfu-manager" type="b2602c69:ProjectViewProjectNode" />
               <item name="huangfu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huangfu-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huangfu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huangfu-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huangfu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="huangfu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huangfu-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huangfu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="huangfu" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huangfu-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huangfu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="huangfu" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huangfu-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huangfu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="huangfu" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huangfu-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huangfu-manager" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huangfu-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huangfu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huangfu-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huangfu-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,17 +273,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574075852636</updated>
-      <workItem from="1574075855639" duration="1728000" />
+      <workItem from="1574075855639" duration="3616000" />
+      <workItem from="1574086164726" duration="1472000" />
     </task>
+    <task id="LOCAL-00001" summary="1 系统构建初始化上传。。。提交基础底层代码">
+      <created>1574078054380</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574078054380</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1728000" />
+    <option name="totallyTimeSpent" value="5088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49473685" visible="true" weight="0.20576407" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49473685" visible="true" weight="0.20844504" />
       <window_info id="Structure" order="1" sideWeight="0.50209206" side_tool="true" weight="0.27010724" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -315,7 +302,6 @@
       <window_info id="Favorites" order="6" sideWeight="0.50209206" side_tool="true" weight="0.27010724" />
       <window_info id="Web" order="7" sideWeight="0.50526315" side_tool="true" weight="0.2774799" />
       <window_info id="JRebel" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" />
       <window_info anchor="bottom" id="Problems" order="0" weight="0.32914925" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49798927" weight="0.32914925" />
@@ -325,16 +311,17 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32914925" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32914925" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3282123" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3282123" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5033512" side_tool="true" weight="0.32914925" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49865952" weight="0.33054394" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49865952" weight="0.32960895" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49932975" weight="0.32914925" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49731904" weight="0.32914925" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="15" sideWeight="0.49731904" visible="true" weight="0.20251396" />
       <window_info anchor="bottom" id="Inspection Results" order="16" sideWeight="0.49798927" weight="0.32914925" />
       <window_info active="true" anchor="bottom" id="JRebel Executor" order="17" sideWeight="0.49597856" visible="true" weight="0.32914925" />
       <window_info anchor="bottom" id="JRebel Console" order="18" sideWeight="0.50603217" side_tool="true" weight="0.47559276" />
+      <window_info anchor="bottom" id="Application Servers" order="19" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -350,18 +337,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1 系统构建初始化上传。。。提交基础底层代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 系统构建初始化上传。。。提交基础底层代码" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/cn/huangfu/common/db/datasource/DruidDataConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="528">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+    <entry file="file://$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="1012">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDaoImplDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5214">
+          <caret line="237" column="27" selection-start-line="237" selection-start-column="27" selection-end-line="237" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -369,21 +370,33 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="88">
-            <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-726" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/resources/expand/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
         </state>
       </provider>
     </entry>
