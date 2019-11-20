@@ -16,7 +16,7 @@ public class DruidDataConfig {
 
     static{
         //测试使用
-        loadDataSource(DruidDataConfig.class.getClassLoader().getResource("druid.properties").getPath());
+        //loadDataSource(DruidDataConfig.class.getClassLoader().getResource("druid.properties").getPath());
     }
 
 

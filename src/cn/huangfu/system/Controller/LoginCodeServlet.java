@@ -19,7 +19,7 @@ import java.util.Random;
  * @Description:
  * 获取验证码
  */
-@WebServlet("/LoginCode")
+@WebServlet("/login/LoginCode")
 public class LoginCodeServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

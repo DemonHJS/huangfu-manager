@@ -8,7 +8,7 @@ import java.util.Properties;
  * @Author: HuangJiaSheng
  * @Date: 2019/11/16 14:14
  * @Description:
- * 响应对象
+ * web返回对象
  */
 public class WebResult {
 

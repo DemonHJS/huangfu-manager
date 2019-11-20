@@ -1,7 +1,7 @@
 package cn.huangfu.common.listener;
 
 import cn.huangfu.common.db.datasource.DruidDataConfig;
-import cn.huangfu.common.util.WXPayUtils;
+import cn.huangfu.common.util.SOSScriptUtils;
 import cn.huangfu.common.util.XmlUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -10,6 +10,7 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
+import java.io.FileInputStream;
 import java.util.Map;
 
 /**
@@ -38,10 +39,10 @@ public class ContextLoaderListener implements ServletContextListener {
         DruidDataConfig.loadDataSource(realPath);
         logger.info("数据源初始化完成....");
         //获取系统配置文件
-        String systemConfig = context.getRealPath("/WEB-INF/classes/systemConfig.xml");
+        String systemConfig = context.getRealPath("/WEB-INF/classes/systemConfig.js");
         try {
-            Map<String, String> sysConfig = WXPayUtils.xmlToMap(systemConfig);
-            context.setAttribute("sysConfig",sysConfig);
+            Map<String, Object> sysConfig = SOSScriptUtils.parse(new FileInputStream(systemConfig),"getParams");
+            context.setAttribute("systemConfig",sysConfig.get("systemConfig"));
         } catch (Exception e) {
             e.printStackTrace();
             logger.error("配置文件加载失败,请检查...");

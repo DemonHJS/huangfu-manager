@@ -21,7 +21,7 @@ public abstract class BaseEntity<ID> implements Serializable{
 	protected ID id;
 
 	/** 创建者ID */
-	protected String createById;
+	/*protected String createById;*/
 
 	/** 创建者 */
 	protected String createBy;
@@ -49,13 +49,13 @@ public abstract class BaseEntity<ID> implements Serializable{
 		this.id = id;
 	}
 
-	public String getCreateById() {
+	/*public String getCreateById() {
 		return createById;
 	}
 
 	public void setCreateById(String createById) {
 		this.createById = createById;
-	}
+	}*/
 
 	public String getCreateBy() {
 		return createBy;

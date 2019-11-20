@@ -5,7 +5,7 @@ import org.json.XML;
 
 public class XmlUtils {
 	
-//	public final static Log logger = LogFactory.getLog(XmlUtils.class);
+//	public final static Loggor logger = LogFactory.getLog(XmlUtils.class);
 
     private XmlUtils(){}
 

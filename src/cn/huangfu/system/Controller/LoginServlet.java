@@ -14,7 +14,7 @@ import java.io.IOException;
  *  登录类
  *
  */
-@WebServlet("/login")
+@WebServlet("/login/login")
 public class LoginServlet extends HttpServlet {
 
     @Override

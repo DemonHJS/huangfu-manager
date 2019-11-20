@@ -1,14 +1,10 @@
 package cn.huangfu.system.filter;
 
 import javax.servlet.*;
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
-import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 敏感词汇过滤器
@@ -25,64 +21,42 @@ public class SensitiveWordsFilter implements Filter {
                 2. 接口数组：真实对象.getClass().getInterfaces()
                 3. 处理器：new InvocationHandler()
          */
-
-        ServletRequest proxy_req = (ServletRequest)Proxy.newProxyInstance(req.getClass().getClassLoader()
-                , req.getClass().getInterfaces(), new InvocationHandler() {
-                    @Override
-                    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+        //获取域对象系统配置数据
+        Map<String,Object> smap = (Map<String, Object>) req.getServletContext().getAttribute("sysConfig");
+        List<String> list = (List<String>) smap.get("systemConfig");
+        if(list !=null && list.size()>0) {
+            ServletRequest proxy_req = (ServletRequest) Proxy.newProxyInstance(req.getClass().getClassLoader()
+                    , req.getClass().getInterfaces(), (proxy, method, args) -> {
                         //判断是否是getParameter方法
-                        if(method.getName().equals("getParameter")){
+                        if (method.getName().equals("getParameter")) {
                             //反射执行方法
                             String value = (String) method.invoke(proxy, args);
                             //过滤替换
                             for (String s : list) {
-                                if(value.contains(s)) {
+                                if (value.contains(s)) {
                                     value = value.replaceAll(s, "***");
                                 }
                             }
                             return value;
                         }
                         return method.invoke(proxy, args);
-                    }
-                });
+                    });
+            //2.放行
+            chain.doFilter(proxy_req, resp);
+        }else {
+            chain.doFilter(req, resp);
+        }
 
-        //2.放行
-        chain.doFilter(proxy_req, resp);
     }
 
 
-    /**
-     * 敏感词汇集合
-     */
-    private List<String> list = new ArrayList<>();
 
     /**
      * 服务器启动时调用，初始化
      * @param config
-     * @throws ServletException
      */
     @Override
-    public void init(FilterConfig config) throws ServletException {
-        //读取配置敏感词汇文件
-        BufferedReader br = null;
-        try {
-            br = new BufferedReader(
-                    new FileReader(SensitiveWordsFilter.class.getClassLoader().getResource("sensitiveWords.xml").getPath()));
-            String s;
-            while((s= br.readLine())!=null){
-                list.add(s);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }finally {
-            if(br !=null){
-                try {
-                    br.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
+    public void init(FilterConfig config) {
 
     }
 

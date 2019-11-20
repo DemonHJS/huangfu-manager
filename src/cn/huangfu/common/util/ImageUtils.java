@@ -7,6 +7,10 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Random;
 
+/**
+ *
+ * @author Demon
+ */
 public class ImageUtils {
 
 	public static BufferedImage generate(String code, int width, int height) {

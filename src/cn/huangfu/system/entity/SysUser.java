@@ -13,9 +13,6 @@ import java.util.Date;
 @Table("sys_user")
 public class SysUser extends BaseEntity<Integer> {
 
-
-    /*private Integer id;*/
-
     private Integer deptId;
 
     private String loginName;
@@ -43,17 +40,6 @@ public class SysUser extends BaseEntity<Integer> {
     private String loginIp;
 
     private Date loginDate;
-
-    /*private String createBy;
-
-    private Date createTime;
-
-    private String updateBy;
-
-    private Date updateTime;
-
-    private String remark;*/
-
 
     public SysUser() {
     }

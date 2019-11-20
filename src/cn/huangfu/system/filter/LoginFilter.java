@@ -14,13 +14,8 @@ import java.io.IOException;
  * @Description:
  *
  * 登录验证过滤器
- *  1. 案例1_登录验证
- * 		* 需求：
- * 			1. 访问day17_case案例的资源。验证其是否登录
- * 			2. 如果登录了，则直接放行。
- * 			3. 如果没有登录，则跳转到登录页面，提示"您尚未登录，请先登录"。
  */
-//@WebFilter("/*")
+@WebFilter("/*")
 public class LoginFilter implements Filter {
 
 
@@ -34,9 +29,9 @@ public class LoginFilter implements Filter {
         //获取请求虚拟资源路径
         String servletPath = request.getServletPath();
         //判断是否是登录资源
-        if(servletPath.contains("/login.jsp") || servletPath.contains("/loginServlet")
-                || servletPath.contains("/css/") || servletPath.contains("/js/")
-                || servletPath.contains("/fonts/") || servletPath.contains("/checkCodeServlet") ){
+        if(servletPath.contains("/login.jsp")
+                || servletPath.contains("/login/")
+                ||servletPath.contains("/resources")){
             chain.doFilter(req, resp);
         }else {
             //获取user对象
