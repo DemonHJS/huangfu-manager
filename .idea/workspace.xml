@@ -7,48 +7,196 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97ba06b6-13ff-4270-85ba-fe8baad18786" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/common/constant/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/huangfu/system/filter/CommonFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/SysUserDaoImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/jquery/jquery-form-4.2.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/jquery/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/layer/layer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/layer/theme/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/layer/theme/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/layer/theme/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/layer/theme/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/layer/theme/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/layer/theme/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/layer/theme/moon/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/expand/layer/theme/moon/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/system/img/2327d6bc21115da99899818d18615566.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/system/js/huangfu-ajaxData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/system/js/huangfu-extend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/system/js/huangfu-fn-extend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/system/js/jquery.validate.extend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/resources/system/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/huangfu_manager_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/huangfu_manager_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/annotation/Id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/annotation/Table.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/bean/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/bean/I18n.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/bean/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/bean/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/bean/WebResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/constant/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/db/AbstractBaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/db/BaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/db/BaseDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/db/datasource/DruidDataConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/db/mapper/CustomColumnMapRowMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/listener/ContextLoaderListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/util/DownLoadUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/util/ImageUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/util/JacksonUtils$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/util/JacksonUtils$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/util/JacksonUtils$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/util/JacksonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/util/JsonUtils$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/util/JsonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/util/JsoupUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/util/SOSScriptUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/util/StringsUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/common/util/XmlUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/system/Controller/LoginCodeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/system/Controller/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/system/Controller/ServletTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/system/dao/SysUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/system/dao/impl/SysUserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/system/entity/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/system/filter/CommonFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/system/filter/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/system/filter/SensitiveWordsFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/system/service/SysUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/cn/huangfu/system/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/systemConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/systemConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/test/BaseDaoImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/classes/test/SysUserDaoImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/JsoupXpath-0.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/commons-beanutils-bean-collections-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/commons-beanutils-core-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/gson-2.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/json-20180813.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/jsoup-1.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/mchange-commons-java-0.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/banner_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/banner_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/footer_service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/guonei_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/hot_tel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/hotel_tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/icon_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/icon_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/icon_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/icon_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/icon_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/icon_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/icon_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/jiangwai_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/jiangxuan_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/jiangxuan_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/jiangxuan_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/jiangxuan_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/jiangxuan_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/jingxuan_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/img/top_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/jquery/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/jquery/jquery-form-4.2.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/jquery/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/layer/layer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/layer/theme/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/layer/theme/moon/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/expand/layer/theme/moon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/system/css/huangfu-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/system/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/system/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/system/img/2327d6bc21115da99899818d18615566.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/system/img/huangfu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/system/img/locked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/system/img/login-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/system/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/system/js/huangfu-ajaxData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/system/js/huangfu-extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/system/js/huangfu-fn-extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/system/js/jquery.validate.extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/resources/system/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/huangfu_manager_war_exploded/test01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/annotation/Id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/annotation/Table.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/bean/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/bean/I18n.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/bean/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/bean/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/bean/WebResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/constant/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/db/AbstractBaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/db/BaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/db/BaseDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/db/datasource/DruidDataConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/db/mapper/CustomColumnMapRowMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/listener/ContextLoaderListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/util/DownLoadUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/util/ImageUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/util/JacksonUtils$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/util/JacksonUtils$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/util/JacksonUtils$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/util/JacksonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/util/JsonUtils$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/util/JsonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/util/JsoupUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/util/SOSScriptUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/util/StringsUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/common/util/XmlUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/system/Controller/LoginCodeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/system/Controller/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/system/Controller/ServletTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/system/dao/SysUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/system/dao/impl/SysUserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/system/entity/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/system/filter/CommonFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/system/filter/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/system/filter/SensitiveWordsFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/system/service/SysUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/cn/huangfu/system/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/systemConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/systemConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/test/BaseDaoImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/huangfu-manager/test/SysUserDaoImplTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huangfu-manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/huangfu-manager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huangfu/common/db/datasource/DruidDataConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huangfu/common/db/datasource/DruidDataConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huangfu/system/Controller/LoginCodeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huangfu/system/Controller/LoginCodeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huangfu/system/Controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huangfu/system/Controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huangfu/system/dao/SysUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huangfu/system/dao/SysUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huangfu/system/dao/impl/SysUserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huangfu/system/dao/impl/SysUserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huangfu/system/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huangfu/system/entity/SysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huangfu/system/filter/SensitiveWordsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huangfu/system/filter/SensitiveWordsFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huangfu/system/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huangfu/system/service/SysUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/huangfu/system/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/huangfu/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/message.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/message.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/systemConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/systemConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/system/img/huangfu.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/system/img/huangfu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/resources/system/img/login-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resources/system/img/login-background.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,8 +237,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="229" column="53" lean-forward="true" selection-start-line="229" selection-start-column="53" selection-end-line="229" selection-end-column="53" />
+            <state relative-caret-position="154">
+              <caret line="232" column="36" selection-start-line="232" selection-start-column="36" selection-end-line="232" selection-end-column="36" />
               <folding>
                 <element signature="e#4747#4748#0" expanded="true" />
                 <element signature="e#4880#4881#0" expanded="true" />
@@ -112,7 +260,7 @@
         <entry file="file://$PROJECT_DIR$/web/resources/system/js/login.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -252,8 +400,8 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="622" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="702" />
     <option name="y" value="2" />
     <option name="width" value="1240" />
     <option name="height" value="1010" />
@@ -539,7 +687,7 @@
       <workItem from="1574161318985" duration="4577000" />
       <workItem from="1574209887094" duration="28784000" />
       <workItem from="1574255885024" duration="5337000" />
-      <workItem from="1574296106239" duration="17312000" />
+      <workItem from="1574296106239" duration="18751000" />
     </task>
     <task id="LOCAL-00001" summary="1 系统构建初始化上传。。。提交基础底层代码">
       <created>1574078054380</created>
@@ -562,7 +710,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574249703505</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1 过滤器，增加字符集设置，响应对象Json格式处理&#10;2 登录功能校验完成&#10;3 BaseDao封装问题调整完成">
+      <created>1574324503988</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574324503988</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -598,7 +753,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61728000" />
+    <option name="totallyTimeSpent" value="63167000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -611,7 +766,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49311927" visible="true" weight="0.20241287" />
       <window_info id="Designer" order="1" />
@@ -701,7 +855,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1 系统构建初始化上传。。。提交基础底层代码" />
     <MESSAGE value="1 解决底层DAO封装问题&#10;2 完成ServletContext对象配置文件设置" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 解决底层DAO封装问题&#10;2 完成ServletContext对象配置文件设置" />
+    <MESSAGE value="1 过滤器，增加字符集设置，响应对象Json格式处理&#10;2 登录功能校验完成&#10;3 BaseDao封装问题调整完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 过滤器，增加字符集设置，响应对象Json格式处理&#10;2 登录功能校验完成&#10;3 BaseDao封装问题调整完成" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/resources/expand/layer/theme/moon/default.png">
@@ -1031,14 +1186,14 @@
     <entry file="file://$PROJECT_DIR$/web/resources/system/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/huangfu/common/db/BaseDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="229" column="53" lean-forward="true" selection-start-line="229" selection-start-column="53" selection-end-line="229" selection-end-column="53" />
+        <state relative-caret-position="154">
+          <caret line="232" column="36" selection-start-line="232" selection-start-column="36" selection-end-line="232" selection-end-column="36" />
           <folding>
             <element signature="e#4747#4748#0" expanded="true" />
             <element signature="e#4880#4881#0" expanded="true" />
