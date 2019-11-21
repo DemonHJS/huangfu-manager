@@ -1,9 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%
-  request.getContextPath();
-  System.out.println(request.getServletContext().getAttribute("systemConfig"));
-%>
+
 <!DOCTYPE html>
 <html  lang="zh">
 <head>
@@ -56,16 +53,16 @@
       <form id="signupForm">
         <h4 class="no-margins">登录：</h4>
         <p class="m-t-md">你若不离不弃，我必生死相依</p>
-        <input type="text"     name="username" class="form-control uname"     placeholder="用户名" value="admin"    />
-        <input type="password" name="password" class="form-control pword"     placeholder="密码"   value="admin123" />
-        <c:if test="${captchaEnabled==true}">
+        <input type="text"     name="userName" class="form-control uname" placeholder="用户名" value=""    />
+        <input type="password" name="password" class="form-control pword" placeholder="密码"   value="" />
+        <c:if test="${applicationScope.systemConfig.system.captchaEnabled}">
           <div class="row m-t">
             <div class="col-xs-6">
               <input type="text" name="validateCode" class="form-control code" placeholder="验证码" maxlength="5" autocomplete="off">
             </div>
             <div class="col-xs-6">
               <a href="javascript:void(0);" title="点击更换验证码">
-                <img src="captcha/captchaImage(type=${applicationScope.systemConfig.system.captchaType})" class="imgcode" width="85%"/>
+                <img src="${requestScope.contextPath}/login/LoginCode" class="imgcode" width="85%"/>
               </a>
             </div>
           </div>
@@ -73,21 +70,31 @@
         <%--<div class="checkbox-custom" th:classappend="${applicationScope.systemConfig.system.captchaType==false} ? 'm-t'">
             <input type="checkbox" id="rememberme" name="rememberme"> <label for="rememberme">记住我</label>
         </div>--%>
-        <button class="btn btn-success btn-block" id="btnSubmit" data-loading="正在验证登录，请稍后...">登录</button>
+        <button class="btn btn-success btn-block" id="btnSubmit"  data-loading="正在验证登录，请稍后...">登录</button>
       </form>
     </div>
   </div>
   <div class="signup-footer">
     <div class="pull-left">
-      &copy; 2019 All Rights Reserved. RuoYi <br>
+      &copy; 2019 All Rights Reserved. HuangFu <br>
     </div>
   </div>
 </div>
-<%--<script th:inline="javascript"> var ctx = [[@{/}]]; var captchaType = [[${captchaType}]]; </script>--%>
+<script >
+  var baseUrl = "${requestScope.contextPath}";
+</script>
 <!-- 全局js -->
 <script src="${requestScope.contextPath}/resources/expand/jquery/jquery-3.2.1.min.js" ></script>
 <script src="${requestScope.contextPath}/resources/expand/bootstrap/js/bootstrap.min.js" ></script>
+<script src="${requestScope.contextPath}/resources/expand/layer/layer.min.js"></script>
+
 <!-- 验证插件 -->
+<script src="${requestScope.contextPath}/resources/expand/jquery/jquery.validate.min.js"></script>
+<script src="${requestScope.contextPath}/resources/system/js/huangfu-extend.js"></script>
+<script src="${requestScope.contextPath}/resources/system/js/huangfu-fn-extend.js"></script>
+
+<script src="${requestScope.contextPath}/resources/system/js/login.js"></script>
+
 <%--<script src="../static/ajax/libs/validate/jquery.validate.min.js" th:src="@{/ajax/libs/validate/jquery.validate.min.js}"></script>
 <script src="../static/ajax/libs/validate/messages_zh.min.js" th:src="@{/ajax/libs/validate/messages_zh.min.js}"></script>
 <script src="../static/ajax/libs/layer/layer.min.js" th:src="@{/ajax/libs/layer/layer.min.js}"></script>

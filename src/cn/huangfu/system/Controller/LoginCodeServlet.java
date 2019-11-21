@@ -1,5 +1,6 @@
 package cn.huangfu.system.Controller;
 
+import cn.huangfu.common.constant.Constants;
 import cn.huangfu.common.util.ImageUtils;
 
 import javax.imageio.ImageIO;
@@ -37,12 +38,13 @@ public class LoginCodeServlet extends HttpServlet {
         }
 
         //设置验证码Session
-        session.setAttribute("code",code);
+        session.setAttribute(Constants.LOGIN_CODE,code.toString());
 
         //获取流
-        BufferedImage bi = ImageUtils.generate(code.toString(), 80, 40);
+        BufferedImage bi = ImageUtils.generate(code.toString(), 160, 60);
         //将图片输出的页面
         ImageIO.write(bi,"JPG",response.getOutputStream());
+
     }
 
     @Override

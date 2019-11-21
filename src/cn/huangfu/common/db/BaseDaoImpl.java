@@ -10,6 +10,7 @@ import cn.huangfu.system.entity.SysUser;
 import com.alibaba.druid.support.logging.Log;
 import com.alibaba.druid.support.logging.LogFactory;
 import org.apache.commons.beanutils.BeanUtils;
+import org.springframework.jdbc.core.BeanPropertyRowMapper;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -139,7 +140,12 @@ public class BaseDaoImpl extends AbstractBaseDao{
 
     @Override
     public <T> T getBySql(Class<T> t,String sql, Object... os) {
-        return template.queryForObject(sql,t,os);
+        try{
+            return template.queryForObject(sql,new BeanPropertyRowMapper<T>(t),os);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return null;
     }
 
 
@@ -202,6 +208,15 @@ public class BaseDaoImpl extends AbstractBaseDao{
         setMapValue(entity,rmap,false);
         return rmap;
     }
+
+    /**
+     * 对象和MAP数据设置
+     * @param entity
+     * @param map
+     * @param status
+     * @param <T>
+     * @return
+     */
     private <T> Map<String,Object> setMapValue(T entity,Map<String,Object> map,boolean status){
         //获取当前字节码对象
         Class classz = entity.getClass();
@@ -237,7 +252,7 @@ public class BaseDaoImpl extends AbstractBaseDao{
         return null;
     }
 
-    //@Override
+    @Override
     public  Page getPage(PageBean pb, Object... os) {
         String sql = pb.getSql();
         //获取总数
@@ -290,7 +305,7 @@ public class BaseDaoImpl extends AbstractBaseDao{
         SysUser sysUser = new SysUser();
         sysUser.setId(5);
         sysUser.setDeptId(100);
-        sysUser.setLoginName("黄家胜22");
+        sysUser.setNickname("黄家胜22");
         sysUser.setUserName("黄家胜22");
         sysUser.setLoginDate(new Date());
         sysUser.setCreateTime(new Date());

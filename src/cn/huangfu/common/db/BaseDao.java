@@ -1,5 +1,7 @@
 package cn.huangfu.common.db;
 
+import cn.huangfu.common.bean.Page;
+import cn.huangfu.common.bean.PageBean;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import java.util.List;
@@ -84,6 +86,12 @@ public interface BaseDao {
      */
     Map<String,Object> getMapBySql(String sql, Object... os);
 
-    /*Page getPage(PageBean pb, String sql, Object... os);*/
+    /**
+     * 返回分页对象
+     * @param pb
+     * @param os
+     * @return
+     */
+    Page getPage(PageBean pb, Object... os);
 
 }

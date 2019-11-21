@@ -16,4 +16,10 @@ public interface SysUserDao {
      */
     List<SysUser> findAll();
 
+    /**
+     * 根据用户名密码获取用户对象
+     * @param userName
+     * @param password
+     */
+    SysUser getSysUserByNamePass(String userName, String password);
 }

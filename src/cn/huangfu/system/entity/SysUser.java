@@ -15,7 +15,7 @@ public class SysUser extends BaseEntity<Integer> {
 
     private Integer deptId;
 
-    private String loginName;
+    private String nickname;
 
     private String userName;
 
@@ -56,12 +56,12 @@ public class SysUser extends BaseEntity<Integer> {
         this.deptId = deptId;
     }
 
-    public String getLoginName() {
-        return loginName;
+    public String getNickname() {
+        return nickname;
     }
 
-    public void setLoginName(String loginName) {
-        this.loginName = loginName;
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 
     public String getUserName() {
@@ -205,7 +205,7 @@ public class SysUser extends BaseEntity<Integer> {
         return "SysUser{" +
                 "id=" + id +
                 ", deptId=" + deptId +
-                ", loginName='" + loginName + '\'' +
+                ", nickname='" + nickname + '\'' +
                 ", userName='" + userName + '\'' +
                 ", userType='" + userType + '\'' +
                 ", email='" + email + '\'' +

@@ -14,10 +14,10 @@ import java.util.Properties;
 public class DruidDataConfig {
     private static DataSource dataSource = null;
 
-    static{
+    /*static{
         //测试使用
-        //loadDataSource(DruidDataConfig.class.getClassLoader().getResource("druid.properties").getPath());
-    }
+        loadDataSource(DruidDataConfig.class.getClassLoader().getResource("druid.properties").getPath());
+    }*/
 
 
     /**
