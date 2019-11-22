@@ -28,10 +28,11 @@ public class SensitiveWordsFilter implements Filter {
         if(list !=null && list.size()>0) {
             ServletRequest proxy_req = (ServletRequest) Proxy.newProxyInstance(req.getClass().getClassLoader()
                     , req.getClass().getInterfaces(), (proxy, method, args) -> {
+                        String func = "getParameter";
                         //判断是否是getParameter方法
-                        if ("getParameter".equals(method.getName())) {
+                        if (func.equals(method.getName())) {
                             //反射执行方法
-                            String value = (String) method.invoke(proxy, args);
+                            String value = (String) method.invoke(req, args);
                             //过滤替换
                             for (String s : list) {
                                 if (value.contains(s)) {
@@ -40,7 +41,7 @@ public class SensitiveWordsFilter implements Filter {
                             }
                             return value;
                         }
-                        return method.invoke(proxy, args);
+                        return method.invoke(req, args);
                     });
             //2.放行
             chain.doFilter(proxy_req, resp);

@@ -4,8 +4,6 @@ import org.json.JSONObject;
 import org.json.XML;
 
 public class XmlUtils {
-	
-//	public final static Loggor logger = LogFactory.getLog(XmlUtils.class);
 
     private XmlUtils(){}
 

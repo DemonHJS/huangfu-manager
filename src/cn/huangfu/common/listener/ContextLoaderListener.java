@@ -2,7 +2,6 @@ package cn.huangfu.common.listener;
 
 import cn.huangfu.common.db.datasource.DruidDataConfig;
 import cn.huangfu.common.util.SOSScriptUtils;
-import cn.huangfu.common.util.XmlUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
@@ -23,7 +22,7 @@ import java.util.Map;
  */
 @WebListener
 public class ContextLoaderListener implements ServletContextListener {
-   public final static Log logger = LogFactory.getLog(XmlUtils.class);
+   public final static Log logger = LogFactory.getLog(ContextLoaderListener.class);
 
     /**
      * 服务器启动创建ServletContext对象监听
